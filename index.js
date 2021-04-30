@@ -124,7 +124,12 @@ const main = async () => {
         driverId: 1,
         constructorId: 131,
     });
-    console.log(res);
+    console.log("Input: ", {
+        raceId: 1053, 
+        driverId: 1,
+        constructorId: 131,
+    });
+    console.log("Output: ", res);
 }
 
 main();
